@@ -3,5 +3,10 @@
     "sznm/react",
     "plugin:react/jsx-runtime",
     "plugin:@next/next/recommended"
-  ]
+  ],
+  "rules": {
+    "camelcase": "off",
+    "@typescript-eslint/naming-convention": "off",
+    "no-console": "off"
+  }
 }
