@@ -1,7 +1,4 @@
-import {
-  useColorMode,
-  Flex,
-} from "@chakra-ui/react";
+import { useColorMode, Flex } from "@chakra-ui/react";
 import { NextSeo } from "next-seo";
 
 const Page404 = () => {
@@ -10,7 +7,6 @@ const Page404 = () => {
   return (
     <Flex minHeight="70vh" direction="column" justifyContent="center">
       <NextSeo title="404 Not Found" />
-
     </Flex>
   );
 };
